@@ -2,6 +2,7 @@
 	"contact": "calvinparmeter@gmail.com",
 	"id": "SMB3Memes",
 	"patches": {
+		"EoSDChiptune": "EoSD Chiptune Soundtrack",
 		"LionKing": "Lion Sleeps Tonight Death Sound"
 	},
 	"servers": [
