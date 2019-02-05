@@ -1,6 +1,6 @@
 {
 	"dependencies": [
-		"nmlg/base_tsa"
+		"nmlgc/base_tsa"
 	],
 	"id": "EoSDChiptune",
 	"servers": [
