@@ -845,7 +845,7 @@ sub MainFront()
 {
     var;
     ins_11("MainSub00");
-    ins_23(6000);
+    ins_23(320);
     ins_524(1);
     ins_23(230);
     ins_15("MainSub01b");
@@ -937,9 +937,9 @@ sub MainSub00()
     $B = 8;
     goto MainSub00_432 @ 0;
 MainSub00_140:
-    ins_300("GirlRedA01", _f(%A - _f(32)), -16.0f, 10000, 1000, 1);
-    ins_300("GirlBlueA01e", %A, -28.0f, 100, 1000000000, 1);
-    ins_300("GirlRedA01", _f(%A + _f(32)), -40.0f, 10000, 1000, 1);
+    ins_300("GirlRedA01", %A, -28.0f, 100, 1000, 1);
+    ins_300("GirlBlueA01e", %A, -28.0f, 100, 100, 1);
+    ins_300("GirlRedA01", %A), -28.0f, 100, 1000, 1);
     ins_23(30);
 MainSub00_432:
     if $B-- goto MainSub00_140 @ 0;
