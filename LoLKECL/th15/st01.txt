@@ -939,7 +939,7 @@ sub MainSub00()
 MainSub00_140:
     ins_300("GirlRedA01", %A, -28.0f, 100, 1000, 1);
     ins_300("GirlBlueA01e", %A, -28.0f, 100, 100, 1);
-    ins_300("GirlRedA01", %A), -28.0f, 100, 1000, 1);
+    ins_300("GirlRedA01", %A, -28.0f, 100, 1000, 1);
     ins_23(30);
 MainSub00_432:
     if $B-- goto MainSub00_140 @ 0;
