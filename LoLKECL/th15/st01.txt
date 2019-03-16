@@ -934,7 +934,7 @@ sub MainSub00()
 {
     var A B C D E;
     %A = _f(-192);
-    $B = 1;
+    $B = 8;
     goto MainSub00_432 @ 0;
 MainSub00_140:
     ins_300("GirlRedA01", _f(%A - _f(32)), -40.0f, 100, 1000, 1);
