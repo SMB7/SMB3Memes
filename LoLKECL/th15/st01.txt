@@ -750,7 +750,7 @@ sub GirlRedA01()
     var;
     ins_302(2);
     ins_306(0, 5);
-    ins_510(5);
+    ins_510(6);
     ins_11("GirlA01");
     ins_1();
 }
