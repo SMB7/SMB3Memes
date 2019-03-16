@@ -937,8 +937,9 @@ sub MainSub00()
     $B = 1;
     goto MainSub00_432 @ 0;
 MainSub00_140:
-    ins_300("GirlRedA01", _f(%A - _f(32)), -16.0f, 100, 1000, 1);
-
+    ins_300("GirlRedA01", _f(%A - _f(32)), -40.0f, 100, 1000, 1);
+    ins_300("GirlBlueA01e", %A, -28.0f, 100, 1000, 1);
+    ins_300("GirlRedA01", _f(%A + _f(32)), -16.0f, 100, 1000, 1);
     ins_23(30);
 MainSub00_432:
     if $B-- goto MainSub00_140 @ 0;
