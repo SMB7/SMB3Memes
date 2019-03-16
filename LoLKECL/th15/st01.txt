@@ -814,13 +814,13 @@ sub MainBoss()
     ins_301("Boss", 144.0f, -16.0f, 40, 1000, 1);
     ins_519();
 1:
-    ins_520();
+
     ins_524(81);
 61:
     ins_518(1);
     ins_519();
-    ins_1();
-    ins_1();
+    ins_10();
+    ins_10();
 }
 
 sub MainBossDebug()
