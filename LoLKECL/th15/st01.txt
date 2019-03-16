@@ -34,6 +34,7 @@ sub GirlA01_at()
 !*
     ins_23([-1]);
     ins_600(0);
+	ins_700(0, 0.0f, 200.0f, 0.0f, 20.0f);
     ins_607(0, 0);
     ins_602(0, 14, 6);
     ins_606(0, 1, 1);
@@ -937,9 +938,9 @@ sub MainSub00()
     $B = 8;
     goto MainSub00_432 @ 0;
 MainSub00_140:
-    ins_300("GirlRedA01", _f(%A - _f(32)), -40.0f, 100, 1000, 1);
+    ins_300("GirlRedA01e", _f(%A - _f(32)), -40.0f, 100, 1000, 1);
     ins_300("GirlBlueA01e", %A, -28.0f, 100, 1000, 1);
-    ins_300("GirlRedA01", _f(%A + _f(32)), -16.0f, 100, 1000, 1);
+    ins_300("GirlRedA01e", _f(%A + _f(32)), -16.0f, 100, 1000, 1);
     ins_23(30);
 MainSub00_432:
     if $B-- goto MainSub00_140 @ 0;
@@ -947,9 +948,9 @@ MainSub00_432:
     $C = 8;
     goto MainSub00_872 @ 0;
 MainSub00_580:
-    ins_304("GirlRedA01", _f(%A - _f(32)), -40.0f, 100, 1000, 1);
+    ins_304("GirlRedA01e", _f(%A - _f(32)), -40.0f, 100, 1000, 1);
     ins_304("GirlBlueA01e", %A, -28.0f, 100, 1000, 1);
-    ins_304("GirlRedA01", _f(%A + _f(32)), -16.0f, 100, 1000, 1);
+    ins_304("GirlRedA01e", _f(%A + _f(32)), -16.0f, 100, 1000, 1);
     ins_23(30);
 MainSub00_872:
     if $C-- goto MainSub00_580 @ 0;
