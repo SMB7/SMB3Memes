@@ -4,7 +4,7 @@ ecli { "default.ecl"; "st01bs.ecl"; "st01mbs.ecl"; "st01mbs2.ecl"; }
 sub GirlA01()
 {
     var;
-	ins_518(0);
+	ins_518(-1);
     ins_569(1);
     ins_500(24.0f, 24.0f);
     ins_501(16.0f, 16.0f);
