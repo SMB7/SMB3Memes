@@ -275,6 +275,7 @@ sub BossCard1_at(A)
 !*
     Et_setSpeed(1, [-1.0f], 1.0f);
     Et_transformPush(1, 0, 2, 0, -999999, -999999.0f, -999999.0f);
+		Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
     Et_setDist(1, 24.0f);
     %B = (%LOCALF1 + (3.883222f / _f(3)));
     $C = 70;
