@@ -319,7 +319,7 @@ sub BossCard1_at2()
 		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
 !*
 	    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
-    Et_setSpeed(0, 0f, 0.2f);
+    Et_setSpeed(0, [-1.0f], 0.2f);
 		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
     Laser_create(0, 0.0f, 600.0f, 0.0f, 16.0f);
 		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
