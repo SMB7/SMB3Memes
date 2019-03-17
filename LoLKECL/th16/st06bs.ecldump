@@ -318,6 +318,10 @@ sub BossCard1_at2()
     %B = 0.10472f;
     $C = 1;
 
+    Et_setAngle(0, %F, 0.0f);
+    Laser_shootStraight(0);
+    %F = ((6.2831855f / _f($E)) * _f($D));
+    return();
 }
 
 sub Boss3()
