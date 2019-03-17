@@ -300,16 +300,7 @@ sub BossCard1_at2()
 		
 		Enm_create("GirlA01", 0f, 0f, 1, 1, 5);
 	    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
-	
-!E
-    2.5f;
-!N
-    2.5f;
-!H
-    3.0f;
-!LO
-    3.5f;
-!*
+
     Et_setSpeed(0, [-1.0f], 0.2f);
     Laser_create(0, 0.0f, 600.0f, 0.0f, 16.0f);
     Et_setSound(0, 18, -1);
