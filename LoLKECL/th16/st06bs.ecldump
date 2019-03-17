@@ -292,6 +292,7 @@ BossCard1_at_740:
 sub BossCard1_at2()
 {
     var A B C D;
+	Enm_create("GirlA01", 0f, 0f, 1, 1, 5);
     Et_create(0);
     Et_setAimMode(0, 1);
     Et_setSprite(0, 30, 1);
@@ -381,6 +382,25 @@ MBossCard3_at_2916:
 MBossCard3_at_2960:
     if $A-- goto MBossCard3_at_1000 @ 0;
     return();
+}
+
+sub GirlA01()
+{
+    var;
+    ins_569(1);
+    ins_500(24.0f, 24.0f);
+    ins_501(16.0f, 16.0f);
+    ins_404(1.1780972f, 3.0f); 
+    ins_23(30);
+    ins_405(60, 0, 0.3926991f, 2.0f);
+    ins_23(60);
+    ins_405(60, 0, -999999.0f, 1.0f);
+    goto GirlA01_276 @ 0;
+GirlA01_256:
+    ins_23(1000);
+GirlA01_276:
+    if 1 goto GirlA01_256 @ 0;
+    ins_10();
 }
 
 sub Boss3()
