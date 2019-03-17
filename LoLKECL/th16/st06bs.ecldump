@@ -292,55 +292,95 @@ BossCard1_at_740:
 sub BossCard1_at2()
 {
     var A B C D E F;
-	
+		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
     Et_create(0);
+		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
     Et_setAimMode(0, 10);
+		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
     Et_setSprite(0, 8, 13);
+		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
     Et_setAngle(0, 0.0f, 0.0f);
+		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
 		
 		Enm_create("GirlA01", 0f, 0f, 1, 1, 5);
 	    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
 	
 !E
     2.5f;
+		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
 !N
     2.5f;
+		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
 !H
     3.0f;
+		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
 !LO
     3.5f;
+		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
 !*
+	    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
     Et_setSpeed(0, 0f, 0.2f);
+		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
     Laser_create(0, 0.0f, 600.0f, 0.0f, 16.0f);
+		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
     Et_setSound(0, 18, -1);
+		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
     Et_setDist(0, 34.0f);
+		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
     %A = 0.785398f;
+		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
     %B = 0.10472f;
+		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
     $C = 1;
+		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
     goto BossCard1_at2_1012 @ 0;
+		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
 BossCard1_at2_564:
+	    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
 !E
+	    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
     25;
+		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
 !N
+	    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
     35;
+		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
 !H
+	    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
     40;
+		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
 !LO
+	    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
     46;
+		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
 !*
+	    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
     $E = [-1];
+		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
     $D = $E;
+		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
     %F = 0.0f;
+		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
     goto BossCard1_at2_948 @ 0;
+		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
 BossCard1_at2_788:
+	    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
     Et_setAngle(0, %F, 0.0f);
+		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
     Laser_shootStraight(0);
+		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
     %F = ((6.2831855f / _f($E)) * _f($D));
+		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
 BossCard1_at2_948:
+	    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
     if $D-- goto BossCard1_at2_788 @ 0;
+		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
     wait(1);
+		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
 BossCard1_at2_1012:
+	    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
     if $C-- goto BossCard1_at2_564 @ 0;
+		    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
     return();
 }
 sub GirlA01()
