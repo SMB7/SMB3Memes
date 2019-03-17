@@ -299,49 +299,7 @@ sub BossCard1_at2()
 		
 		Enm_create("GirlA01", 0f, 0f, 1, 1, 5);
 	    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
-	
-!E
-    2.5f;
-!N
-    2.5f;
-!H
-    3.0f;
-!LO
-    3.5f;
-!*
-    Et_setSpeed(0, [-1.0f], 0.2f);
-    Laser_create(0, 0.0f, 600.0f, 0.0f, 16.0f);
-    Et_setSound(0, 18, -1);
-    Et_transformPush(0, 1, 2, 1, -999999, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 1048576, 1, -999999, -999999.0f, -999999.0f);
-    Et_setDist(0, 34.0f);
-    %A = 0.785398f;
-    %B = 0.10472f;
-    $C = 1;
-    goto BossCard1_at2_1012 @ 0;
-BossCard1_at2_564:
-!E
-    25;
-!N
-    35;
-!H
-    40;
-!LO
-    46;
-!*
-    $E = [-1];
-    $D = $E;
-    %F = 0.0f;
-    goto BossCard1_at2_948 @ 0;
-BossCard1_at2_788:
-    Et_setAngle(0, %F, 0.0f);
-    Laser_shootStraight(0);
-    %F = ((6.2831855f / _f($E)) * _f($D));
-BossCard1_at2_948:
-    if $D-- goto BossCard1_at2_788 @ 0;
-    wait(1);
-BossCard1_at2_1012:
-    if $C-- goto BossCard1_at2_564 @ 0;
+		Et_shoot(0);
     return();
 }
 sub GirlA01()
