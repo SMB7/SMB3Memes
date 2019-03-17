@@ -297,7 +297,7 @@ sub BossCard1_at2()
     Et_setSprite(0, 8, 13);
     Et_setAngle(0, 0.0f, 0.0f);
 	
-	Enm_create("Boss", 0f, 0f, 2, 100, 5);
+	Enm_create("Boss1", 0f, 0f, 2, 100, 5);
 	
 !E
     2.5f;
