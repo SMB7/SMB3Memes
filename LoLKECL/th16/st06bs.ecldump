@@ -306,7 +306,70 @@ sub BossCard1_at2()
     Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
 
     Diff_S($A, 10, 20, 22, 22);
-
+    goto MBossCard3_at_2960 @ 0;
+MBossCard3_at_1000:
+    %B = _f(-192);
+    $C = 3;
+    goto MBossCard3_at_1936 @ 0;
+MBossCard3_at_1104:
+!E
+    -1.5707964f + (0.17453292f * %RANDFS);
+!N
+    -1.5707964f + (0.17453292f * %RANDFS);
+!H
+    -1.5707964f + (0.2617994f * %RANDFS);
+!LO
+    -1.5707964f + (0.34906584f * %RANDFS);
+!*
+    Et_setAngle(0, [-1.0f], 0.5235988f);
+    Et_setOffsetAbs(0, _f(%B + (%RANDFS * _f(16))), _f(%FINAL_Y + (%RANDF * _f(32))));
+    Et_setSpeed(0, 1.4f, 1.0f);
+    %B = (%B + _f(40));
+    Et_shoot(0);
+!E
+    4;
+!N
+    2;
+!H
+    2;
+!LO
+    2;
+!*
+    wait([-1]);
+MBossCard3_at_1936:
+    if $C-- goto MBossCard3_at_1104 @ 0;
+    %B = _f(192);
+    $D = 3;
+    goto MBossCard3_at_2916 @ 0;
+MBossCard3_at_2084:
+!E
+    -1.5707964f + (0.17453292f * %RANDFS);
+!N
+    -1.5707964f + (0.17453292f * %RANDFS);
+!H
+    -1.5707964f + (0.2617994f * %RANDFS);
+!LO
+    -1.5707964f + (0.34906584f * %RANDFS);
+!*
+    Et_setAngle(0, [-1.0f], 0.5235988f);
+    Et_setOffsetAbs(0, _f(%B + (%RANDFS * _f(16))), _f(%FINAL_Y + (%RANDF * _f(32))));
+    Et_setSpeed(0, 1.4f, 1.0f);
+    %B = (%B - _f(40));
+    Et_shoot(0);
+!E
+    4;
+!N
+    2;
+!H
+    2;
+!LO
+    2;
+!*
+    wait([-1]);
+MBossCard3_at_2916:
+    if $D-- goto MBossCard3_at_2084 @ 0;
+MBossCard3_at_2960:
+    if $A-- goto MBossCard3_at_1000 @ 0;
     Et_setAimMode(0, 10);
     Et_setSprite(0, 8, 13);
     Et_setAngle(0, 0.0f, 0.0f);
