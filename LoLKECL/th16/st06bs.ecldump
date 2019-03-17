@@ -292,30 +292,16 @@ BossCard1_at_740:
 sub BossCard1_at2()
 {
     var A B C D;
+	
 	Enm_create("GirlA01", 0f, 0f, 1, 1, 5);
+	
     Et_create(0);
     Et_setAimMode(0, 1);
     Et_setSprite(0, 30, 1);
     Et_setCount(0, 1, 1);
     Et_setAngle(0, 1.5707964f, 0.032724924f);
     Et_setSpeed(0, 3.0f, 1.0f);
-    Et_transformPush(0, 0, 2, 1, -999999, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 4096, 1, 15, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 4, 1, -999999, 0.5f, -999999.0f);
-    Et_transformPush(0, 0, 512, 30, 2, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 4096, 1, 15, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 4, 1, -999999, 0.5f, -999999.0f);
-    Et_transformPush(0, 0, 512, 30, 3, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 4096, 1, 15, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 4, 1, -999999, 0.5f, -999999.0f);
-    Et_transformPush(0, 0, 512, 30, 4, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 4096, 1, 15, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 4, 1, -999999, 0.3f, -999999.0f);
-    Et_transformPush(0, 0, 512, 30, 5, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 4096, 1, 15, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 4, 1, -999999, 0.2f, -999999.0f);
-    Et_transformPush(0, 0, 512, 30, 6, -999999.0f, -999999.0f);
+
     Diff_S($A, 10, 20, 22, 22);
     goto MBossCard3_at_2960 @ 0;
 MBossCard3_at_1000:
