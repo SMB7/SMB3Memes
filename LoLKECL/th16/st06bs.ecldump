@@ -313,7 +313,6 @@ sub BossCard1_at2()
     Et_setSpeed(0, [-1.0f], 0.2f);
     Laser_create(0, 0.0f, 600.0f, 0.0f, 16.0f);
     Et_setSound(0, 18, -1);
-    Et_transformPush(0, 0, 1048576, 1, -999999, -999999.0f, -999999.0f);
     Et_setDist(0, 34.0f);
     %A = 0.785398f;
     %B = 0.10472f;
