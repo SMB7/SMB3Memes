@@ -314,6 +314,7 @@ sub BossCard1_at2()
     Et_setSound(0, 18, -1);
     Et_transformPush(0, 1, 2, 1, -999999, -999999.0f, -999999.0f);
     Et_transformPush(0, 0, 1048576, 1, -999999, -999999.0f, -999999.0f);
+	Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
 	
 	
 	
