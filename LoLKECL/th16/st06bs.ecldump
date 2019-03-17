@@ -293,6 +293,8 @@ sub BossCard1_at2()
 {
     var A B C D E F;
 	
+			Enm_create("GirlA01", 0f, 0f, 1, 1, 5);
+	
 	Et_create(0);
     Et_setAimMode(0, 1);
     Et_setSprite(0, 30, 1);
