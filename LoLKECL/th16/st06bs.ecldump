@@ -292,14 +292,12 @@ BossCard1_at_740:
 sub BossCard1_at2()
 {
     var A B C D E F;
-	
-	Enm_create("GirlA01", 0f, 0f, 1, 1, 5);
-	
     Et_create(0);
     Et_setAimMode(0, 10);
     Et_setSprite(0, 8, 13);
     Et_setAngle(0, 0.0f, 0.0f);
-	
+		
+		Enm_create("GirlA01", 0f, 0f, 1, 1, 5);
 	    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
 	
 !E
@@ -320,10 +318,30 @@ sub BossCard1_at2()
     %A = 0.785398f;
     %B = 0.10472f;
     $C = 1;
-
+    goto BossCard1_at2_1012 @ 0;
+BossCard1_at2_564:
+!E
+    25;
+!N
+    35;
+!H
+    40;
+!LO
+    46;
+!*
+    $E = [-1];
+    $D = $E;
+    %F = 0.0f;
+    goto BossCard1_at2_948 @ 0;
+BossCard1_at2_788:
     Et_setAngle(0, %F, 0.0f);
     Laser_shootStraight(0);
     %F = ((6.2831855f / _f($E)) * _f($D));
+BossCard1_at2_948:
+    if $D-- goto BossCard1_at2_788 @ 0;
+    wait(1);
+BossCard1_at2_1012:
+    if $C-- goto BossCard1_at2_564 @ 0;
     return();
 }
 sub GirlA01()
