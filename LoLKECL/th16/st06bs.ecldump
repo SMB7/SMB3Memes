@@ -1562,6 +1562,7 @@ sub BossCard2_at()
     var A B C D E F G;
     Et_create(0);
     Et_setAimMode(0, 1);
+	Enm_create("GirlA01", 0f, 0f, 1, 1, 5);
 	Et_transformPush(0, 0, 128, 9999, -999999, -999999.0f, -999999.0f);
 !E
     1;
