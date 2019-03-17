@@ -291,118 +291,58 @@ BossCard1_at_740:
 
 sub BossCard1_at2()
 {
-    var A B C D;
-	
-	Enm_create("GirlA01", 0f, 0f, 1, 1, 5);
-	
+    var A B C D E F;
     Et_create(0);
-    Et_setAimMode(0, 1);
-    Et_setSprite(0, 30, 1);
-    Et_setCount(0, 1, 1);
-    Et_setAngle(0, 1.5707964f, 0.032724924f);
-    Et_setSpeed(0, 3.0f, 1.0f);
-
-    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 4096, 1, 15, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 4, 1, -999999, 0.5f, -999999.0f);
-    Et_transformPush(0, 0, 512, 30, 2, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 4096, 1, 15, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 4, 1, -999999, 0.5f, -999999.0f);
-    Et_transformPush(0, 0, 512, 30, 3, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 4096, 1, 15, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 4, 1, -999999, 0.5f, -999999.0f);
-    Et_transformPush(0, 0, 512, 30, 4, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 4096, 1, 15, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 4, 1, -999999, 0.3f, -999999.0f);
-    Et_transformPush(0, 0, 512, 30, 5, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 4096, 1, 15, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 4, 1, -999999, 0.2f, -999999.0f);
-    Et_transformPush(0, 0, 512, 30, 6, -999999.0f, -999999.0f);
-    Diff_S($A, 10, 20, 22, 22);
-    goto MBossCard3_at_2960 @ 0;
-MBossCard3_at_1000:
-    %B = _f(-192);
-    $C = 3;
-    goto MBossCard3_at_1936 @ 0;
-MBossCard3_at_1104:
+    Et_setAimMode(0, 10);
+    Et_setSprite(0, 8, 13);
+    Et_setAngle(0, 0.0f, 0.0f);
+	Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
 !E
-    -1.5707964f + (0.17453292f * %RANDFS);
+    2.5f;
 !N
-    -1.5707964f + (0.17453292f * %RANDFS);
+    2.5f;
 !H
-    -1.5707964f + (0.2617994f * %RANDFS);
+    3.0f;
 !LO
-    -1.5707964f + (0.34906584f * %RANDFS);
+    3.5f;
 !*
-    Et_setAngle(0, [-1.0f], 0.5235988f);
-    Et_setOffsetAbs(0, _f(%B + (%RANDFS * _f(16))), _f(%FINAL_Y + (%RANDF * _f(32))));
-    Et_setSpeed(0, 1.4f, 1.0f);
-    %B = (%B + _f(40));
-    Et_shoot(0);
+    Et_setSpeed(0, [-1.0f], 0.2f);
+    Laser_create(0, 0.0f, 600.0f, 0.0f, 16.0f);
+    Et_setSound(0, 18, -1);
+    Et_transformPush(0, 1, 2, 1, -999999, -999999.0f, -999999.0f);
+    Et_transformPush(0, 0, 1048576, 1, -999999, -999999.0f, -999999.0f);
+	
+	
+	
+    Et_setDist(0, 34.0f);
+    %A = 0.785398f;
+    %B = 0.10472f;
+    $C = 1;
+    goto BossCard1_at2_1012 @ 0;
+BossCard1_at2_564:
 !E
-    4;
+    25;
 !N
-    2;
+    35;
 !H
-    2;
+    40;
 !LO
-    2;
+    46;
 !*
-    wait([-1]);
-MBossCard3_at_1936:
-    if $C-- goto MBossCard3_at_1104 @ 0;
-    %B = _f(192);
-    $D = 3;
-    goto MBossCard3_at_2916 @ 0;
-MBossCard3_at_2084:
-!E
-    -1.5707964f + (0.17453292f * %RANDFS);
-!N
-    -1.5707964f + (0.17453292f * %RANDFS);
-!H
-    -1.5707964f + (0.2617994f * %RANDFS);
-!LO
-    -1.5707964f + (0.34906584f * %RANDFS);
-!*
-    Et_setAngle(0, [-1.0f], 0.5235988f);
-    Et_setOffsetAbs(0, _f(%B + (%RANDFS * _f(16))), _f(%FINAL_Y + (%RANDF * _f(32))));
-    Et_setSpeed(0, 1.4f, 1.0f);
-    %B = (%B - _f(40));
-    Et_shoot(0);
-!E
-    4;
-!N
-    2;
-!H
-    2;
-!LO
-    2;
-!*
-    wait([-1]);
-MBossCard3_at_2916:
-    if $D-- goto MBossCard3_at_2084 @ 0;
-MBossCard3_at_2960:
-    if $A-- goto MBossCard3_at_1000 @ 0;
+    $E = [-1];
+    $D = $E;
+    %F = 0.0f;
+    goto BossCard1_at2_948 @ 0;
+BossCard1_at2_788:
+    Et_setAngle(0, %F, 0.0f);
+    Laser_shootStraight(0);
+    %F = ((6.2831855f / _f($E)) * _f($D));
+BossCard1_at2_948:
+    if $D-- goto BossCard1_at2_788 @ 0;
+    wait(1);
+BossCard1_at2_1012:
+    if $C-- goto BossCard1_at2_564 @ 0;
     return();
-}
-
-sub GirlA01()
-{
-    var;
-    ins_569(1);
-    ins_500(24.0f, 24.0f);
-    ins_501(16.0f, 16.0f);
-    ins_404(1.1780972f, 3.0f); 
-    ins_23(30);
-    ins_405(60, 0, 0.3926991f, 2.0f);
-    ins_23(60);
-    ins_405(60, 0, -999999.0f, 1.0f);
-    goto GirlA01_276 @ 0;
-GirlA01_256:
-    ins_23(1000);
-GirlA01_276:
-    if 1 goto GirlA01_256 @ 0;
-    ins_10();
 }
 
 sub Boss3()
