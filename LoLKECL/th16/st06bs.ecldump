@@ -297,6 +297,9 @@ sub BossCard1_at2()
     Et_setSprite(0, 8, 13);
     Et_setAngle(0, 0.0f, 0.0f);
 		
+		Et_setCount(1, [-1], 1);
+		Et_transformPush(1, 0, 2, 0, -999999, -999999.0f, -999999.0f);
+	
 		Enm_create("GirlA01", 0f, 0f, 1, 1, 5);
 	    Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
 		Et_shoot(0);
