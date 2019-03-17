@@ -303,21 +303,7 @@ sub BossCard1_at2()
     Et_setSpeed(0, 3.0f, 1.0f);
     Et_transformPush(0, 0, 2, 1, -999999, -999999.0f, -999999.0f);
     Et_transformPush(0, 0, 128, 4000, -999999, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 4096, 1, 15, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 4, 1, -999999, 0.5f, -999999.0f);
-    Et_transformPush(0, 0, 512, 30, 2, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 4096, 1, 15, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 4, 1, -999999, 0.5f, -999999.0f);
-    Et_transformPush(0, 0, 512, 30, 3, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 4096, 1, 15, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 4, 1, -999999, 0.5f, -999999.0f);
-    Et_transformPush(0, 0, 512, 30, 4, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 4096, 1, 15, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 4, 1, -999999, 0.3f, -999999.0f);
-    Et_transformPush(0, 0, 512, 30, 5, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 4096, 1, 15, -999999.0f, -999999.0f);
-    Et_transformPush(0, 0, 4, 1, -999999, 0.2f, -999999.0f);
-    Et_transformPush(0, 0, 512, 30, 6, -999999.0f, -999999.0f);
+
     Diff_S($A, 10, 20, 22, 22);
     goto MBossCard3_at_2960 @ 0;
 MBossCard3_at_1000:
