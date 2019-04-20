@@ -893,6 +893,7 @@ BossCard2_1776:
     callAsync("BossCard2_at2", _SS $A);
 !*
 	setTimeoutSpell();
+	setFlag(3);
     call("BossCard2_at");
     wait(90);
     Move_random(30, 4, 2.0f);
