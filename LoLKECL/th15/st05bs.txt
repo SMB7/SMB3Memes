@@ -855,7 +855,7 @@ BossCard2_468:
     $MISS_COUNT = 0;
     $BOMB_COUNT = 0;
     $CAPTURE = 1;
-    setNextSub(0, 0, -1, "Boss3");
+    setNextSub(0, 0, 1000000000000000000000000000000000000000, "Boss3");
 !EN
     declareSpell(62, 2400, 500000, "獄符「フラッシュアンドストライプ」");
 !HL
