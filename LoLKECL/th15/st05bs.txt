@@ -861,7 +861,6 @@ BossCard2_468:
 !HL
     declareSpell(62, 2400, 500000, "獄符「スターアンドストライプ」");
 !*
-	setTimeoutSpell();
     Move_posTime(60, 4, 0.0f, 128.0f);
     Move_limit(0.0f, 128.0f, 240.0f, 64.0f);
     Anm_316(0, 0);
@@ -893,6 +892,7 @@ BossCard2_1776:
 !EN
     callAsync("BossCard2_at2", _SS $A);
 !*
+	setTimeoutSpell();
     call("BossCard2_at");
     wait(90);
     Move_random(30, 4, 2.0f);
