@@ -7,7 +7,7 @@
 	"th06/enep01.wav": 2443531312,
 	"th06/extend.wav": 3234982319,
 	"th06/graze.wav": 3677229,
-	"th06/gun00.wav": 632972014,
+	"th06/gun00.wav": null,
 	"th06/item00.wav": 2820133762,
 	"th06/kira00.wav": 1925887375,
 	"th06/kira01.wav": 2907185614,
