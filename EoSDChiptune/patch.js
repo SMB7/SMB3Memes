@@ -6,5 +6,5 @@
 	"servers": [
 		"https://raw.githubusercontent.com/SMB7/SMB3Memes/master/EoSDChiptune/"
 	],
-	"title": "EoSD Chiptune Soundtrack"
+	"title": "EoSD Chiptune Soundtrack, lossless FLACs, DefleMask edition"
 }

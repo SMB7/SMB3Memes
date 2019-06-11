@@ -2,8 +2,8 @@
 	"contact": "calvinparmeter@gmail.com",
 	"id": "SMB3Memes",
 	"patches": {
-		"EoSDChiptune": "EoSD Chiptune Soundtrack",
-		"EoSDChiptuneLossy": "EoSD Chiptune Soundtrack",
+		"EoSDChiptune": "EoSD Chiptune Soundtrack, lossless FLACs, DefleMask edition",
+		"EoSDChiptuneLossy": "EoSD Chiptune Soundtrack, lossy Oggs, DefleMask edition",
 		"LionKing": "Lion Sleeps Tonight Death Sound",
 		"LoLKECL": "LoLK ECL Testing. Use at your own risk!"
 	},
