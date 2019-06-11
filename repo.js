@@ -3,6 +3,7 @@
 	"id": "SMB3Memes",
 	"patches": {
 		"EoSDChiptune": "EoSD Chiptune Soundtrack",
+		"EoSDChiptuneLossy": "EoSD Chiptune Soundtrack",
 		"LionKing": "Lion Sleeps Tonight Death Sound",
 		"LoLKECL": "LoLK ECL Testing. Use at your own risk!"
 	},
